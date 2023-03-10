@@ -234,7 +234,7 @@ body {
   margin-right: 30px;
 }
 
-.hiding {
+.hidden {
   display: none;
 }
 
@@ -800,13 +800,8 @@ fill: var(--accent-color);
   border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
-
+ 
 }
-
-.contact-form-checkbox {
-  overflow: hidden; 
-}
-
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   background-image: url(../images/check.svg);
@@ -829,4 +824,8 @@ fill: var(--accent-color);
   margin-right: auto;
   margin-top: 30px;
   padding: 10px 52px;
+}
+
+.conditions-contract {
+  text-decoration: underline;
 }
